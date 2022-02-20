@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         title: 'Great Places',
         theme: ThemeData(
           primarySwatch: Colors.indigo,
-          accentColor: Colors.amber,
+          accentColor: Color.fromARGB(255, 36, 33, 25),
         ),
         home: PlacesListScreen(),
         routes: {
